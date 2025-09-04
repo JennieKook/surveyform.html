@@ -9,13 +9,13 @@
 </head>
 <body>
     <h1>Customer satisfaction survey</h1>
-    <form action ="#" method="post"></form>
+    <form action ="#" method="post">
     <label for="name">Name :</label><br/>
-    <input type="txt" : id="name" name ="name" required/><br /><br/>
+    <input type="txt"  id="name" name ="name" required/><br /><br/>
 
 
       <label for="email">Email :</label><br/>
-    <input type="txt" id="email" name ="email" required/><br /><br/>
+    <input type="txt"  id="email" name ="email" required/><br /><br/>
 <label>Gender :</label>
 <input type="radio" id="male" name="gender" value="male"/>
 
@@ -23,17 +23,21 @@
 <label for="male">Male</label><br/>
 <input type="radio" id="female" name="gender" value="female"/>
 
+<label for="female">female</label><br/>
 <label for="male">Other</label><br/>
 
 
 <label for="Age">Age :</label><br/>
 <select id="age" name="age">
-    <option value=""select>select</option>
-          <option value=""under 18>under 18</option>
-              <option value=""18-30>18-30</option>
-     <option value=""31-50>31-50</option>
-                   <option value=""51plus>51+</option>
+    <option value="">select</option>
+          <option value="under 18">under 18</option>
+              <option value="18-30">18-30</option>
+     <option value="31-50">31-50</option>
+                   <option value="51plus">51+</option>
 </select><br/><br/>
+                   <label for="feedback">feedback</label>
+                  <textarea id="feedback" name="feedback"  rows="5"  cols="30" placeholder="write your beedback here"></textarea>
+
 
 <input type="submit" value="submit survey" />
 </form>
